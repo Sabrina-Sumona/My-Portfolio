@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    area
 }
 .banner-container{
     background-color: #6d3492;
@@ -12,8 +13,11 @@ body{
 .navbar-container
 {
     background-color:#246985;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
-.about-container
+.profile-container
 {
     background-color:#49bedb;
 }
@@ -21,7 +25,7 @@ body{
     text-indent: 24px;
 }
 .education-container{
-    background-color: #e9b2c9;
+    background-color: #f187f5;
 }
 .institute{
     text-align: justify;
@@ -34,11 +38,31 @@ body{
     color: rgb(135, 201, 231);
 }
 .project-container{
-    background-color: #aef187;
+    background-color: #c0eb9e;
 }
 .pro_des{
     text-align: justify;
 }
 .pro{
     color: #024911;
+}
+.quatations-container{
+    background-color: #64f891;
+}
+.contact-container{
+    background-color: #3690f7;
+}
+.inner-form{
+    background-color: rgb(124, 179, 243);
+}
+.submit-color{
+    background-color: rgb(0, 0, 139);
+    color:  rgb(124, 179, 243);
+}
+.submit-color:hover{
+    background-color: rgb(124, 179, 243);
+    color:  rgb(0, 0, 139);
+}
+.gallery-container{
+    background-color: #f59393;
 }
