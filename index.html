@@ -19,7 +19,37 @@
 </head>
 
 <body>
-
+  <!-- welcome -->
+  <h1 class="font-weight-bolder text-center welcome">Welcome to Sumona's Portfolio</h1>
+<!-- carosel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="res_fold/img/andri-klopfenstein-I0oPzzc6KT8-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+          <img src="res_fold/img/brooke-lark-nMffL1zjbw4-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+          <img src="res_fold/img/christina-wocintechchat-com-2JDDn7iSGH8-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+          <img src="res_fold/img/scott-graham-5fNmWej4tAA-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </a>
+  </div>
   <!-- banner -->
   <section class="banner-container container-fluid">
     <div class="row vh-100">
@@ -28,37 +58,105 @@
         <h3>Final Year CSE student at City University, Dhaka</h3>
       </div>
     </div>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item active">
-            <a class="nav-link active" href="#About">About<span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Project">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
   </section>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="#About">About<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- about -->
+  <div class="about-container" id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 my-5">
+
+          <img src="/res_fold/img/sumu.png" alt="Sabrina" class="img-fluid border border-light rounded-circle m-auto">
+        </div>
+        <div class="col-md-9" style="text-align: center;">
+          <h2 style="text-align: center; margin: 5px;">Most. Sabrina Naorin Sumona</h2>
+          <p class="mb: 25px">Final Year CSE student at City University, Dhaka</p>
+          <P class="font-weight-bolder text-success">Some quatations I like...</P>
+          <p class="para-sapce">“If you think you are worth what you know, you are very wrong. Your knowledge today does not have much
+            value beyond a couple of years. Your value is what you can learn and how easily you can adapt to the changes
+            this profession brings so often.”
+            — Jose M. Aguilar
+          </p>
+          <p class="para-sapce">“Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about
+            programmers is that you cannot tell whether or not they are working simply by looking at them. Very often
+            they’re sitting there seemingly drinking coffee and gossiping, or just staring into space. What the
+            programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering
+            around in his head.”
+            — Charles M. Strauss
+          </p>
+          <p class="para-sapce">“Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a
+            more pleasant experience for you and your guests.”
+            — Ryan Campbell </p>
+          <p">“There is only one problem with common sense; it’s not very common.”
+            — Milt Bryce
+          </p>
+          <p">“Computers are good at following instructions, but not at reading your mind.”
+            — Donald Knuth
+          </p>
+          <p">“If you think your users are idiots, only idiots will use it.”
+            — Linus Torvalds
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- education -->
+  <div class="education-container" id="Education">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col  py-5">
+          <h2 class="edu font-weight-bolder">Education</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="/res_fold/img/shishi-niketon.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/bps.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/tps.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/tilakpur-high-school.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/Biam-Model-School-College-Bogra-Students-Assembly.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/bauet.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+          <img src="/res_fold/img/cu.jpg" alt="Sabrina" class="img-fluid border border-light rounded institute">
+        </div>
+        <div class="col-md-10">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 

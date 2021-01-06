@@ -2,12 +2,35 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .banner-container{
-    background-color: #85d8ec;
+    background-color: #6d3492;
+    
 }
 .banner-column{
-    background-color: #5c9ab3;
+    background-color: #c49edd;
+    
 }
 .navbar-container
 {
-    background-color: #6d3492;
+    background-color:#246985;
+}
+.about-container
+{
+    background-color:#49bedb;
+}
+.para-sapce{
+    text-indent: 24px;
+}
+.education-container{
+    background-color: #e9b2c9;
+}
+.institute{
+    border: 5px #961349;
+    margin: 5px;
+}
+.edu{
+    color: #961349;
+}
+.welcome{
+    background-color: rgb(8, 8, 68);
+    color: rgb(135, 201, 231);
 }
