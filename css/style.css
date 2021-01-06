@@ -33,3 +33,12 @@ body{
     background-color: rgb(8, 8, 68);
     color: rgb(135, 201, 231);
 }
+.project-container{
+    background-color: #aef187;
+}
+.pro_des{
+    text-align: justify;
+}
+.pro{
+    color: #024911;
+}
