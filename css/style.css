@@ -24,8 +24,7 @@ body{
     background-color: #e9b2c9;
 }
 .institute{
-    border: 5px #961349;
-    margin: 5px;
+    text-align: justify;
 }
 .edu{
     color: #961349;
